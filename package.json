@@ -1,0 +1,19 @@
+{
+  "name": "vanilla",
+  "version": "1.0.0",
+  "description": "Vanilla JS - clock - username persistance - To Do list - random background image - weather with Geolocation",
+  "main": "background.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hyunduk-jo/vanilla-js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hyunduk-jo/vanilla-js/issues"
+  },
+  "homepage": "https://github.com/hyunduk-jo/vanilla-js#readme"
+}
