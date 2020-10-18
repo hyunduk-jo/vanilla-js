@@ -1,0 +1,120 @@
+@import "./reset.css";
+
+body{
+  position: relative;
+  background-color: skyblue;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1{
+  font-size: 150px;
+  font-weight: 600;
+}
+
+.container{
+  margin: 10px 0px;
+  padding: 10px;
+  background-color: white;
+  opacity: .5;
+  border-radius: 10px;
+}
+
+.display{
+  display: block;
+}
+
+.no-display{ 
+  display: none;
+}
+
+@keyframes fadeIn{
+  from {
+    opacity: 0;
+  }
+  top {
+    opacity: 1;
+  }
+}
+
+.bgImg{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  animation: fadeIn .5s linear;
+}
+
+.weather-box{
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 20px;
+  font-size: 20px;
+}
+
+.h2div,
+.todo-container,
+.formdiv{
+  position: relative;
+  top: -50px;
+  margin-bottom: 15px;
+}
+
+h2{
+  text-align: center;
+  width: 380px;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+input{
+  text-align: center;
+  padding: 0;
+  width: 380px;
+  border: none;
+  font-size: 30px;
+}
+
+input::placeholder{
+  color: black;
+  font-weight: 600;
+}
+
+.clock{
+  position: relative;
+  top: -150px;
+}
+
+button {
+  background-color: rgba(0,0,0,0);
+  border: none;
+  font-size: 30px;
+}
+
+span{
+  font-size: 25px;
+}
+
+ul{
+  width: 400px;
+  background-color: white;
+  border-radius: 10px;
+  opacity: .5;
+}
+
+li span{
+  margin: 0px 20px;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+li{
+  display: flex;
+  justify-content: space-between;
+}
